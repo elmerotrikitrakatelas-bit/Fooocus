@@ -34,8 +34,8 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "score_9, score_8_up, score_7_up, rating_explicit, source_photorealistic, ",
-    "default_prompt_negative": "(worst quality, low quality, normal quality:2), (bokeh effect:1.2), (blurriness:1.2), (bokeh:1.2), depth of field, (blur:1.2), (blurry:1.2), (grainy:1.2), (out of focus:1.2), doll, plastic, cartoon, anime, deformed, distorted, blurry, bad anatomy, bad proportions, extra fingers, gross, fake skin, heavy makeup, airbrushed, oily skin, bad face, bad teeth, bad hands, deformities, belly, tattoo, missing fingers, fat girl, tall girl, long torso, big pussy, fat cheeks, round face, wide arms, muscles, wide face, wrinkles, wrinkled skin, prominent bones, prominent ribs, ugly face, old, unappealing, pubic hair, hairy, tanned skin, bones, ribs, tan lines, pierced tongue",
+    "default_prompt": "score_9, score_8_up, score_7_up, source_photorealistic, ",
+    "default_prompt_negative": "(worst quality, low quality, normal quality:2), (bokeh effect:1.2), (blurriness:1.2), (bokeh:1.2), depth of field, (blur:1.2), (blurry:1.2), (grainy:1.2), (out of focus:1.2), doll, plastic, cartoon, anime, deformed, distorted, blurry, bad anatomy, bad proportions, extra fingers, gross, fake skin, airbrushed, bad face, bad teeth, bad hands, deformities, belly, tattoo, missing fingers, fat girl, tall girl, long torso, big pussy, fat cheeks, wide arms, muscles, wide face, wrinkles, wrinkled skin, ugly face, old, unappealing, pubic hair, hairy, tanned skin, bones, ribs, tan lines, pierced tongue",
     "default_styles": [
         "Blank"
     ],
@@ -48,6 +48,7 @@
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
         "PERFECT_ANAL_AIO.safetensors": "https://civitai.com/api/download/models/2307072?token=29f83fd931731ebeff6333cadf2d2d94",
+        "gag_deepthoat.safetensors": "https://civitai.com/api/download/models/1107308?token=29f83fd931731ebeff6333cadf2d2d94",
         "xl-innie-biglove.safetensors": "https://civitai.com/api/download/models/1565815?token=29f83fd931731ebeff6333cadf2d2d94"
     },
     "previous_default_models": []
