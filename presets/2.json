@@ -1,0 +1,54 @@
+{
+    "default_model": "perfectionRealisticILXL_60.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
+            0.25
+        ],
+        [
+            true,
+            "xl-innie-biglove.safetensors",
+            0.4
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 3,
+    "default_sample_sharpness": 15.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "masterpiece, best quality, high quality, ultra-detailed, realistic, ",
+    "default_prompt_negative": "cartoon, illustration, anime, painting, CGI, 3D render, low quality, watermark, logo, label, doll, plastic, deformed, distorted, blurry, bad anatomy, bad proportions, extra fingers, fake skin, airbrushed, bad face, bad teeth, bad hands, deformities, belly, tattoo, missing fingers, fat girl, tall girl, long torso, big pussy, fat cheeks, wide arms, muscles, wide face, wrinkles, wrinkled skin, ugly face, old, unappealing, pubic hair, hairy, tanned skin, bones, ribs, tan lines, pierced tongue",
+    "default_styles": [
+        "Blank"
+    ],
+    "default_aspect_ratio": "1280*768",
+    "default_overwrite_step": 15,
+    "checkpoint_downloads": {
+        "perfectionRealisticILXL_60.safetensors": "https://civitai.com/api/download/models/2604400?token=29f83fd931731ebeff6333cadf2d2d94"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
+        "BallsDeep-IL-V2.2-S.safetensors": "https://civitai.com/api/download/models/1226551?token=29f83fd931731ebeff6333cadf2d2d94",
+        "StS_Age_Slider_Illustrious_v1.safetensors": "https://civitai.com/api/download/models/1150298?token=29f83fd931731ebeff6333cadf2d2d94"
+    },
+    "previous_default_models": []
+}
